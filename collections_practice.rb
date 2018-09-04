@@ -48,4 +48,8 @@ def add_s(array)
   array.each_with_index.collect {|a, index|
     if index = 1
       return a
+    else
+      a(index) << "s"
+    end
+  end
 end
